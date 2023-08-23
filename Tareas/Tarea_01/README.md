@@ -12,8 +12,8 @@
 
 ### Grupo: Ignacio Muñoz, Felipe Gallet y Victoria Yeme
 
-### Ignacio Muñoz Martínez
-### imuom@uc.cl
+##### Ignacio Muñoz Martínez
+##### imuom@uc.cl
 
-### [Link del Miró](https://miro.com/app/board/uXjVMuobuUE=/?share_link_id=339228885315)
+#### [Link del Miró](https://miro.com/app/board/uXjVMuobuUE=/?share_link_id=339228885315)
 
