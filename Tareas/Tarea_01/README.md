@@ -2,7 +2,7 @@
 
 ## Conclusiones de la actividad inicial:
 
-+ Fue una buena actividad para poder ir entendiendo de que se tratará el ramo y cómo abordarlo.
++ Fue una buena actividad para poder ir entendiendo de qué se tratará el ramo y cómo abordarlo.
 
 + Junto a mi grupo nos costó centrarnos en una idea, teniamos muchos temas pero poco enfocados. Por ejemplo viajes, salidas laborales del periodismo, el fenomeno del Padel en los últimos años en nuestro país.
 
@@ -10,7 +10,7 @@
 
 + **El crecimiento del Padel en los últimos años en Chile.** Consideramos que este es un buen tema para realizar el trabajo.
 
-### Grupo: Ignacio Muñoz, Felipe Gallet y Victoria Yeme
+#### Grupo: Ignacio Muñoz, Felipe Gallet y Victoria Yeme
 
 ##### Ignacio Muñoz Martínez
 ##### imuom@uc.cl
