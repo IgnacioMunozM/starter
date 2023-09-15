@@ -1,14 +1,11 @@
-## Tareas
+# Tarea 2
+# Ignacio Muñoz Martínez
 
-Cada tarea debe estar contenida en una carpeta llamada `Tarea_XX` donde `XX` es el número de la tarea. Si tiene un solo dígito, se debe anteponer un `0` a este.
+### Esta trabajo me gustó. Fue importante haber ido a las clases para comprender como se usaba el codigo.
 
-Ejemplo: 
-* ...
-* `Tarea_08`
-* `Tarea_09`
-* `Tarea_10`
-* `Tarea_11`
-* `Tarea_12`
-* ...
+### A la hora de realizar la tarea, solo tuve que repasar los codigos escritos en clase, y cuando habia algo que no me funcionaba, busqué en internet donde hay mucha información sobre codigo.
 
-Dentro de cada una de las tareas, **debes** tener un archivo `README.md` que utilice [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) donde expliques toda cosa asumida, consideración e información útil para tu corrector. 
+##### Ignacio Muñoz Martínez
+##### imuom@uc.cl
+
+## [Link del colab](https://colab.research.google.com/drive/1coSoLqFX0W6Tv3KfR3A0JPK5xI4Z3764?usp=sharing)
