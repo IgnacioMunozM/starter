@@ -12,12 +12,6 @@
             padding: 0; /* Eliminar relleno predeterminado del cuerpo */
             z-index: 1;
         }
-    </style>
-    <style>
-        body {
-            margin: 0; /* Eliminar márgenes predeterminados del cuerpo */
-            padding: 0; /* Eliminar relleno predeterminado del cuerpo */
-        }
 
         .background {
             position: fixed; /* Fijar el elemento en la ventana del navegador */
@@ -30,10 +24,13 @@
         }
 
         .content {
-            margin-left: 33.33%; /* Margen a la izquierda del ancho del fondo */
+            margin-left: 0%; /* Margen a la izquierda del ancho del fondo */
+            position: relative; /* Ajuste de posición para el contenido */
+            z-index: 3; /* Colocar el contenido encima del fondo */
+            color: white; /* Color del texto */
+            padding: 20px; /* Espaciado interno */
         }
-    </style>
-    <style>
+
        .image-container {
             position: absolute;
             top: 0;
@@ -46,6 +43,11 @@
             height: 600px;
             object-fit: cover;
         }
+
+        .text-under-image {
+            margin-bottom: 600px; /* Margen hacia abajo */
+        }
+
     </style>
     
 
@@ -57,15 +59,16 @@
     </div>
     <div class="background"></div>
     <div class="content">
-        <!-- Contenido de tu página -->
+        <p class="text-under-image"></p>
+        <h1>Encabezado 1</h1>
+        <h2>Encabezado 2</h2>
+        <h3>Encabezado 3</h3>
+        <h4>Encabezado 4</h4>
+        <h5>Encabezado 5</h5>
+        <h6>Encabezado 6</h6>
     </div>
 
-    <h1>Encabezado 1</h1>
-    <h2>Encabezado 2</h2>
-    <h3>Encabezado 3</h3>
-    <h4>Encabezado 4</h4>
-    <h5>Encabezado 5</h5>
-    <h6>Encabezado 6</h6>
+   
 
     <p>Primer párrafo</p>
 
