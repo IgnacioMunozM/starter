@@ -1,0 +1,5 @@
+# Tarea 3 Ignacio Muñoz
+
+Este es mi link: https://ignaciomunozm.github.io/starter/
+
+Esta tarea fue todo un desafío. En clases vimos lo necesario para realizarla, pero me picaba el vichito de querer hacer cosas nuevas. Es por eso que para hacer la página también busqué cosas en internet. Vi varios sitios, uno de ellos el que más me sirvio fue chat gpt. Pero tuve que aprender a usarlo, porque inicialmente cree una página muy enredada que entendia poco gracias a Chat gpt. Como comprendo que ese no es el objetivo de la tarea, comencé todo de nuevo, solo con lo que había aprendido yo. Por eso preferí hacer una página simple, con lo que enseñaron en clases y algunas cosas que aprendí solo, por ejemplo, centrar el texto o agregar color al fondo (también cambiar de color la letra). Fue una buena experiencia porque aprendí cosas a prueba y error, por ejemplo, usar css con los estilos en head. También aprendí que html es como apilar cajas pero en vez de cajas divs. 
