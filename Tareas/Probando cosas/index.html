@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa de Exportación de Jugadores</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <style>
+        #map { height: 500px; }
+        .arrow { stroke: blue; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        const map = L.map('map').setView([-33.4569, -70.6483], 2);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19
+        }).addTo(map);
+
+        const data = [
+            { source: [-33.4569, -70.6483], target: [40.4168, -3.7038], info: "Jugador A a Madrid" },
+            { source: [-33.4569, -70.6483], target: [48.8566, 2.3522], info: "Jugador B a París" },
+            { source: [-33.4569, -70.6483], target: [19.3942, -99.0288], info: "Jugador C a México" }
+            // Agrega más datos según sea necesario
+        ];
+
+        data.forEach(d => {
+            const line = L.polyline([d.source, d.target], { color: 'blue' }).addTo(map);
+            line.bindPopup(d.info);
+            line.on('mouseover', function (e) {
+                this.openPopup();
+            });
+            line.on('mouseout', function (e) {
+                this.closePopup();
+            });
+        });
+    </script>
+</body>
+</html>
