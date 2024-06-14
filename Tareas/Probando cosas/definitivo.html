@@ -18,9 +18,9 @@
 </head>
 <body>
     <div>
-        <h1>Visualizacion Atómica: ¿A donde se exportán los fútbolistas chilenos?</h1>
+        <h1>Visualizacion Atómica: ¿Cómo a variado la exportación a Europa desde el medio chileno?</h1>
 
-        <h2>Exportación de jugadores chilenos antes de 2017</h2>
+        <h2>Jugadores chilenos a Europa entre 2000 y 2016</h2>
     </div>
     <div>
         <div id="map"></div>
@@ -43,12 +43,7 @@
                 { source: [-33.4569, -70.6483], target: [47.5416, 7.6201], info: "Marcelo Díaz a FC Basilea (Suiza), 2012" },
                 { source: [-33.4569, -70.6483], target: [46.0814, 13.5997], info: "Alexis Sánchez a Udinese (Italia), 2008" },
                 { source: [-33.4569, -70.6483], target: [40.8280, 14.1930], info: "Eduardo Vargas a Nápoles (Italia), 2012" },
-                { source: [-33.4569, -70.6483], target: [-23.5452, -46.4742], info: "Johnny Herrera a Corinthians (Brasil), 2006" },
-                { source: [-33.4569, -70.6483], target: [25.2188, 55.3161], info: "Edson Puch a Al-Wasl (Dubái), 2011" },
-                { source: [-33.4569, -70.6483], target: [-34.6356, -58.3647], info: "José Pedro Fuenzalida a Boca Juniors (Argentina), 2014" },
                 { source: [-33.4569, -70.6483], target: [42.7967, -1.6371], info: "Francisco Silva a CA Osasuna (España), 2013" },
-                { source: [-33.4569, -70.6483], target: [-34.6520, -58.4401], info: "Paulo Díaz a San Lorenzo (Argentina), 2016" },
-                { source: [-33.4569, -70.6483], target: [-23.9509, -46.3389], info: "Eugenio Mena a Santos (Brasil), 2013" },
                 { source: [-33.4569, -70.6483], target: [46.0814, 14.1997], info: "David Pizarro a Udinese (Italia), 2001" },
                 { source: [-33.4569, -70.6483], target: [40.3921, -3.6586], info: "Jorge Valdivia a Rayo Vallecano (España), 2004" },
                 { source: [-33.4569, -70.6483], target: [39.9439, -0.1031], info: "Matías Fernández a Villarreal CF (España), 2007" },
@@ -64,17 +59,12 @@
                 { source: [-33.4569, -70.6483], target: [41.1619, -8.5836], info: "Igor Lichnovsky a FC Porto (Portugal), 2014" },
                 { source: [-33.4569, -70.6483], target: [45.4354, 10.9685], info: "César Pinares a Chievo Verona (Italia), 2010" },
                 { source: [-33.4569, -70.6483], target: [37.1530, -3.5956], info: "Francisco Sierralta a Granada CF (España), 2015" },
-                { source: [-33.4569, -70.6483], target: [-25.4479, -48.2770], info: "Christian Vilches a Athletico-PR (Brasil), 2015" },
                 { source: [-33.4569, -70.6483], target: [37.3840, -5.5709], info: "Bryan Rabello a Sevilla FC (España), 2013" },
                 { source: [-33.4569, -70.6483], target: [38.0927, 15.6350], info: "Carlos Carmona a Reggina (Italia), 2008" },
                 { source: [-33.4569, -70.6483], target: [42.5622, 12.6352], info: "Luis Jiménez a Ternana (Italia), 2002" },
                 { source: [-33.4569, -70.6483], target: [41.1271, 1.2728], info: "Juan Delgado a Gimnastic (España), 2016" },
-                
-
-
-                
-             
-                // Agrega más datos según sea necesario
+                { source: [-33.4569, -70.6483], target: [41.6365, -0.9017], info: "Humberto Suazo a Real Zaragoza (España), 2010" },
+                { source: [-33.4569, -70.6483], target: [41.0848, 16.8401], info: "Jaime Valdés a Bari (Italia), 2000" },
             ];
 
             data.forEach(d => {
@@ -90,7 +80,7 @@
         </script>
     </div>
     <dic>
-        <h2>Exportación de jugadores chilenos desde 2017</h2>
+        <h2>Jugadores chilenos a Europa desde 2017 hasta la actualidad</h2>
     </dic>
     <div>
         <div id="map2"></div>
@@ -103,44 +93,12 @@
             }).addTo(map2);
 
             const data2 = [
-                { source: [-33.4569, -70.6483], target: [-31.4035, -64.2062], info: "Matías Marín a Belgrano (Argentina), 2023" },
-                { source: [-33.4569, -70.6483], target: [-34.4000, -58.3965], info: "Guillermo Soto a Huracán (Argentina), 2022" },
-                { source: [-33.4569, -70.6483], target: [-34.6434, -58.3965], info: "Rodrigo Echeverría a Huracán (Argentina), 2023" },
-                { source: [-33.4569, -70.6483], target: [-31.4035, -64.2062], info: "Alex Ibacache a Belgrano (Argentina), 2023" },
-                { source: [-33.4569, -70.6483], target: [-32.9202, -68.8394], info: "Thomas Galdames a Godoy Cruz (Argentina), 2023" },
-                { source: [-33.4569, -70.6483], target: [-31.449167, -64.175278], info: "Bruno Barticciotto a Talleres (Argentina), 2023" },
-                { source: [-33.4569, -70.6483], target: [-23.527, -46.6784], info: "Benjamín Kuscevic a Palmeiras (Brasil), 2020" },
-                { source: [-33.4569, -70.6483], target: [-23.5451, -46.4743], info: "Ángelo Araos a Corinthians (Brasil), 2018" },
                 { source: [-33.4569, -70.6483], target: [36.5027, -6.2728], info: "Tomás Alarcón a Cádiz CF (España), 2021" },
-                { source: [-33.4569, -70.6483], target: [20.7054, -103.3282], info: "Ignacio Jeraldino a Atlas (México), 2020" },
-                { source: [-33.4569, -70.6483], target: [19.3834, -99.1787], info: "Felipe Mora a Cruz Azul (México), 2017" },
-                { source: [-33.4569, -70.6483], target: [19.2834, -99.5787], info: "Martín Rodríguez a Cruz Azul (México), 2017" },
                 { source: [-33.4569, -70.6483], target: [42.8371, -2.6882], info: "Guillermo Maripán a Alavés (España), 2017" },
                 { source: [-33.4569, -70.6483], target: [43.5834, 1.4340], info: "Gabriel Suazo a Toulouse (Francia), 2023" },
-                { source: [-33.4569, -70.6483], target: [-34.6343, -58.5211], info: "Pablo Galdames a Velés Sarsfield (Argentina), 2018" },
                 { source: [-33.4569, -70.6483], target: [40.64571, 14.823], info: "Diego Valencia a Salernitana (Italia), 2022" },
                 { source: [-33.4569, -70.6483], target: [39.0794, 17.11656], info: "Luis Rojas a Crotone (Italia), 2020" },
-                { source: [-33.4569, -70.6483], target: [19.7189, -101.2334], info: "Diego Valdés a Monarcas Morelia (México), 2016" },
-                { source: [-33.4569, -70.6483], target: [21.8809, -102.2757], info: "Víctor Dávila a Necaxa (México), 2017" },
-                { source: [-33.4569, -70.6483], target: [19.2873, -99.6669], info: "Valber Huerta a Toluca (México), 2022" },
-                { source: [-33.4569, -70.6483], target: [21.7694, 39.1644], info: "Claudio Baeza a Al-Ahli (Arabia Saudita), 2019" },
-                { source: [-33.4569, -70.6483], target: [21.1155, -101.6577], info: "Jean Meneses a León (México), 2019" },
-                { source: [-33.4569, -70.6483], target: [19.7189, -100.7334], info: "Sebastián Vegas a Monarcas Morelia (México), 2016" },
-                { source: [-33.4569, -70.6483], target: [23.2771, -106.3825], info: "Nicolás Díaz a Mazatlán FC (México), 2022" },
-                { source: [-33.4569, -70.6483], target: [32.5060, -116.9930], info: "Joaquín Montecinos a Club Tijuana (México), 2022" },
-                { source: [-33.4569, -70.6483], target: [19.2834, -98.7787], info: "Iván Morales a Cruz Azul (México), 2022" },
-                { source: [-33.4569, -70.6483], target: [55.7920, 37.5156], info: "Víctor Méndez a CSKA Moscú (Rusia), 2022" },
-                { source: [-33.4569, -70.6483], target: [21.8809, -101.8757], info: "Marcelo Allende a Necaxa (México), 2018" },
-                { source: [-33.4569, -70.6483], target: [-0.3463, -78.4692], info: "Matías Fernández a Independiente del Valle (Ecuador), 2022" },
-                { source: [-33.4569, -70.6483], target: [20.1053, -98.7561], info: "Ángelo Sagal a Pachuca (México), 2017" },
-                { source: [-33.4569, -70.6483], target: [-22.8931, -43.2923], info: "Leonardo Valencia a Botafogo (Brasil), 2017" },
-                { source: [-33.4569, -70.6483], target: [-34.6664, -58.3690], info: "Oscar Opazo a Racing (Argentina), 2023" },
-                { source: [-33.4569, -70.6483], target: [-25.4479, -49.2770], info: "Esteban Pavez a Athletico-PR (Brasil), 2017" },
-                { source: [-33.4569, -70.6483], target: [-30.0653, -51.2358], info: "Carlos Palacios a Internacional (Brasil), 2021" },
-                { source: [-33.4569, -70.6483], target: [52.6220, 1.3092], info: "Marcelino Núñez a Norwich (Inglaterra), 2022" },
                 { source: [-33.4569, -70.6483], target: [56.1168, 8.9517], info: "Darío Osorio a Midjylland (Dinamarca), 2023" },
-                
-                // Agrega más datos según sea necesario
             ];
 
             data2.forEach(d => {
