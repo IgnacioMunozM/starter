@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_82b067ae91b3c342447f56f8bcbe331b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_82b067ae91b3c342447f56f8bcbe331b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_82b067ae91b3c342447f56f8bcbe331b = L.map(
+                "map_82b067ae91b3c342447f56f8bcbe331b",
+                {
+                    center: [-33.4569, -70.6483],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6882d13547fa5fab4ec0a5f475ab466f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+            var poly_line_b0cf6277d58a33d02539662774012da6 = L.polyline(
+                [[-33.4569, -70.6483], [43.3012, -1.9748]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_1575d2b2cd3a800cdfc126d8e3dc30e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ad7000d5c8a10ed562ad442c79bb0f7 = $(`<div id="html_1ad7000d5c8a10ed562ad442c79bb0f7" style="width: 100.0%; height: 100.0%;">Claudio Bravo a Real Sociedad (España), 2006</div>`)[0];
+                popup_1575d2b2cd3a800cdfc126d8e3dc30e8.setContent(html_1ad7000d5c8a10ed562ad442c79bb0f7);
+            
+        
+
+        poly_line_b0cf6277d58a33d02539662774012da6.bindPopup(popup_1575d2b2cd3a800cdfc126d8e3dc30e8)
+        ;
+
+        
+    
+    
+            var poly_line_5a0d6398d1a94892784667a9ed324717 = L.polyline(
+                [[-33.4569, -70.6483], [46.0814, 13.1997]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_c668603e5952e356957aec941b5eaf80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d1775e67d2e7542362de8137f1d1ad1 = $(`<div id="html_6d1775e67d2e7542362de8137f1d1ad1" style="width: 100.0%; height: 100.0%;">Mauricio Isla a Udinese (Italia), 2008</div>`)[0];
+                popup_c668603e5952e356957aec941b5eaf80.setContent(html_6d1775e67d2e7542362de8137f1d1ad1);
+            
+        
+
+        poly_line_5a0d6398d1a94892784667a9ed324717.bindPopup(popup_c668603e5952e356957aec941b5eaf80)
+        ;
+
+        
+    
+    
+            var poly_line_d2430e12c02a0d2dc34d6397bb030f6f = L.polyline(
+                [[-33.4569, -70.6483], [37.384, -5.9709]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_d98d8fe5968477c21d0f5a9d50a2bfb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31f6d7fd76aae7f0875483654013e497 = $(`<div id="html_31f6d7fd76aae7f0875483654013e497" style="width: 100.0%; height: 100.0%;">Gary Medel a Sevilla FC (España), 2011</div>`)[0];
+                popup_d98d8fe5968477c21d0f5a9d50a2bfb9.setContent(html_31f6d7fd76aae7f0875483654013e497);
+            
+        
+
+        poly_line_d2430e12c02a0d2dc34d6397bb030f6f.bindPopup(popup_d98d8fe5968477c21d0f5a9d50a2bfb9)
+        ;
+
+        
+    
+    
+            var poly_line_eb3be2748e3318bbe24f17cbbf9eed89 = L.polyline(
+                [[-33.4569, -70.6483], [52.5093, -1.9639]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_14f485bbdb218127d0ed435e50e80175 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45c65f6696e012ea2f1d25e7c39d8b0d = $(`<div id="html_45c65f6696e012ea2f1d25e7c39d8b0d" style="width: 100.0%; height: 100.0%;">Gonzalo Jara a West Brom (Inglaterra), 2009</div>`)[0];
+                popup_14f485bbdb218127d0ed435e50e80175.setContent(html_45c65f6696e012ea2f1d25e7c39d8b0d);
+            
+        
+
+        poly_line_eb3be2748e3318bbe24f17cbbf9eed89.bindPopup(popup_14f485bbdb218127d0ed435e50e80175)
+        ;
+
+        
+    
+    
+            var poly_line_55d3104337e93a759f494ca022630a0e = L.polyline(
+                [[-33.4569, -70.6483], [46.178, 6.1269]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_d45af91330f26d311d593ca83a59ff29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ad7b21b626ae77cbeaea7c417fe7cf8 = $(`<div id="html_2ad7b21b626ae77cbeaea7c417fe7cf8" style="width: 100.0%; height: 100.0%;">Jean Beausejour a Servette FC (Suiza), 2004</div>`)[0];
+                popup_d45af91330f26d311d593ca83a59ff29.setContent(html_2ad7b21b626ae77cbeaea7c417fe7cf8);
+            
+        
+
+        poly_line_55d3104337e93a759f494ca022630a0e.bindPopup(popup_d45af91330f26d311d593ca83a59ff29)
+        ;
+
+        
+    
+    
+            var poly_line_35ca1d107f58296cf60e9baf617a0e16 = L.polyline(
+                [[-33.4569, -70.6483], [51.0383, 7.0022]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_019cd4533ba4ba4fc0017e92d82bca78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e6e6b4f9fce9ccae38e3e3222d28ba7 = $(`<div id="html_9e6e6b4f9fce9ccae38e3e3222d28ba7" style="width: 100.0%; height: 100.0%;">Arturo Vidal a Bayer Leverkusen (Alemania), 2007</div>`)[0];
+                popup_019cd4533ba4ba4fc0017e92d82bca78.setContent(html_9e6e6b4f9fce9ccae38e3e3222d28ba7);
+            
+        
+
+        poly_line_35ca1d107f58296cf60e9baf617a0e16.bindPopup(popup_019cd4533ba4ba4fc0017e92d82bca78)
+        ;
+
+        
+    
+    
+            var poly_line_0551a9a96dc8e9695e105022312a12ac = L.polyline(
+                [[-33.4569, -70.6483], [46.0814, 12.527]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_b211ab5fd574e1fab2479082a669a94e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c92d48333381cb4f65712cab1d9d3f9 = $(`<div id="html_5c92d48333381cb4f65712cab1d9d3f9" style="width: 100.0%; height: 100.0%;">Charles Aránguiz a Udinese (Italia), 2014</div>`)[0];
+                popup_b211ab5fd574e1fab2479082a669a94e.setContent(html_5c92d48333381cb4f65712cab1d9d3f9);
+            
+        
+
+        poly_line_0551a9a96dc8e9695e105022312a12ac.bindPopup(popup_b211ab5fd574e1fab2479082a669a94e)
+        ;
+
+        
+    
+    
+            var poly_line_f7c21e180d764b4ebcd4dacb919da62a = L.polyline(
+                [[-33.4569, -70.6483], [47.5416, 7.6201]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_da67fe14d10dd3ea96cb6780e2aec1a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f4c9444b2d43c78e2832a3551536710 = $(`<div id="html_5f4c9444b2d43c78e2832a3551536710" style="width: 100.0%; height: 100.0%;">Marcelo Díaz a FC Basilea (Suiza), 2012</div>`)[0];
+                popup_da67fe14d10dd3ea96cb6780e2aec1a3.setContent(html_5f4c9444b2d43c78e2832a3551536710);
+            
+        
+
+        poly_line_f7c21e180d764b4ebcd4dacb919da62a.bindPopup(popup_da67fe14d10dd3ea96cb6780e2aec1a3)
+        ;
+
+        
+    
+    
+            var poly_line_5d4fafb6300705fa8dda136ab1031697 = L.polyline(
+                [[-33.4569, -70.6483], [46.0814, 13.5997]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_61efe9d41cd227023ebae5bb3e1d3526 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18757ea9e15e5e0b2cf8405032ad4ce8 = $(`<div id="html_18757ea9e15e5e0b2cf8405032ad4ce8" style="width: 100.0%; height: 100.0%;">Alexis Sánchez a Udinese (Italia), 2008</div>`)[0];
+                popup_61efe9d41cd227023ebae5bb3e1d3526.setContent(html_18757ea9e15e5e0b2cf8405032ad4ce8);
+            
+        
+
+        poly_line_5d4fafb6300705fa8dda136ab1031697.bindPopup(popup_61efe9d41cd227023ebae5bb3e1d3526)
+        ;
+
+        
+    
+    
+            var poly_line_94ad67c7a640e9e8bab81cbf34532741 = L.polyline(
+                [[-33.4569, -70.6483], [40.828, 14.193]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_f5436694e822076aabf98026c14e6ad0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bfb050e6558747941447d3c57d7450b = $(`<div id="html_9bfb050e6558747941447d3c57d7450b" style="width: 100.0%; height: 100.0%;">Eduardo Vargas a Nápoles (Italia), 2012</div>`)[0];
+                popup_f5436694e822076aabf98026c14e6ad0.setContent(html_9bfb050e6558747941447d3c57d7450b);
+            
+        
+
+        poly_line_94ad67c7a640e9e8bab81cbf34532741.bindPopup(popup_f5436694e822076aabf98026c14e6ad0)
+        ;
+
+        
+    
+    
+            var poly_line_766f7a6382fb84fde9a7c50ecb421810 = L.polyline(
+                [[-33.4569, -70.6483], [42.7967, -1.6371]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_acfc9ceeaebfde098facd7146cdb0508 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4530bc2053d2b2778b8e1867957d658 = $(`<div id="html_e4530bc2053d2b2778b8e1867957d658" style="width: 100.0%; height: 100.0%;">Francisco Silva a CA Osasuna (España), 2013</div>`)[0];
+                popup_acfc9ceeaebfde098facd7146cdb0508.setContent(html_e4530bc2053d2b2778b8e1867957d658);
+            
+        
+
+        poly_line_766f7a6382fb84fde9a7c50ecb421810.bindPopup(popup_acfc9ceeaebfde098facd7146cdb0508)
+        ;
+
+        
+    
+    
+            var poly_line_4e89430acdfcb3d099f5f7a1964f3f90 = L.polyline(
+                [[-33.4569, -70.6483], [46.0814, 14.1997]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_73de3c4828fbf3c94f7ce61a1f9508c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfa3fcf984a7e58c3816c826a8ff40ff = $(`<div id="html_cfa3fcf984a7e58c3816c826a8ff40ff" style="width: 100.0%; height: 100.0%;">David Pizarro a Udinese (Italia), 2001</div>`)[0];
+                popup_73de3c4828fbf3c94f7ce61a1f9508c3.setContent(html_cfa3fcf984a7e58c3816c826a8ff40ff);
+            
+        
+
+        poly_line_4e89430acdfcb3d099f5f7a1964f3f90.bindPopup(popup_73de3c4828fbf3c94f7ce61a1f9508c3)
+        ;
+
+        
+    
+    
+            var poly_line_abb6b235566e01afae331641e97f5048 = L.polyline(
+                [[-33.4569, -70.6483], [40.3921, -3.6586]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_f5d2b283a5018ddb2c13bf7d12c3b23d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b02af5e4b3550a2b4c98b07ec79f5985 = $(`<div id="html_b02af5e4b3550a2b4c98b07ec79f5985" style="width: 100.0%; height: 100.0%;">Jorge Valdivia a Rayo Vallecano (España), 2004</div>`)[0];
+                popup_f5d2b283a5018ddb2c13bf7d12c3b23d.setContent(html_b02af5e4b3550a2b4c98b07ec79f5985);
+            
+        
+
+        poly_line_abb6b235566e01afae331641e97f5048.bindPopup(popup_f5d2b283a5018ddb2c13bf7d12c3b23d)
+        ;
+
+        
+    
+    
+            var poly_line_e36645cd08903c0e2bc3db774299cdda = L.polyline(
+                [[-33.4569, -70.6483], [39.9439, -0.1031]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_c9cff539e551574304f03c81311cc7cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a820f46e7e92124b1a3cea3b3705c1a = $(`<div id="html_1a820f46e7e92124b1a3cea3b3705c1a" style="width: 100.0%; height: 100.0%;">Matías Fernández a Villarreal CF (España), 2007</div>`)[0];
+                popup_c9cff539e551574304f03c81311cc7cb.setContent(html_1a820f46e7e92124b1a3cea3b3705c1a);
+            
+        
+
+        poly_line_e36645cd08903c0e2bc3db774299cdda.bindPopup(popup_c9cff539e551574304f03c81311cc7cb)
+        ;
+
+        
+    
+    
+            var poly_line_979d885f96a1cfb0e3af62be66c0a11a = L.polyline(
+                [[-33.4569, -70.6483], [45.4781, 9.124]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_8e2648772c4901a2c78c3a1f62128d8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f78052dce52beb7d311a6184bf70205 = $(`<div id="html_3f78052dce52beb7d311a6184bf70205" style="width: 100.0%; height: 100.0%;">Mauricio Pinilla a Inter (Italia), 2003</div>`)[0];
+                popup_8e2648772c4901a2c78c3a1f62128d8a.setContent(html_3f78052dce52beb7d311a6184bf70205);
+            
+        
+
+        poly_line_979d885f96a1cfb0e3af62be66c0a11a.bindPopup(popup_8e2648772c4901a2c78c3a1f62128d8a)
+        ;
+
+        
+    
+    
+            var poly_line_606e3f760981ce73c28eaf92c3fe08a7 = L.polyline(
+                [[-33.4569, -70.6483], [53.4631, -2.2913]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_03d3fcc19a822786cc636e32c27df031 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feb3981b742e52ba654c6c4c34628b8f = $(`<div id="html_feb3981b742e52ba654c6c4c34628b8f" style="width: 100.0%; height: 100.0%;">Ángelo Henríquez a Manchester United (Inglaterra), 2012</div>`)[0];
+                popup_03d3fcc19a822786cc636e32c27df031.setContent(html_feb3981b742e52ba654c6c4c34628b8f);
+            
+        
+
+        poly_line_606e3f760981ce73c28eaf92c3fe08a7.bindPopup(popup_03d3fcc19a822786cc636e32c27df031)
+        ;
+
+        
+    
+    
+            var poly_line_daea9cbf8266a8e6ed88c5d0d1af5d27 = L.polyline(
+                [[-33.4569, -70.6483], [52.2361, 6.8373]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_2c78e25f037ca2ab32553f723b3d89ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f94fc38314c320519a83ecb42e429f6b = $(`<div id="html_f94fc38314c320519a83ecb42e429f6b" style="width: 100.0%; height: 100.0%;">Felipe Gutiérrez a FC Twente (Holanda), 2012</div>`)[0];
+                popup_2c78e25f037ca2ab32553f723b3d89ca.setContent(html_f94fc38314c320519a83ecb42e429f6b);
+            
+        
+
+        poly_line_daea9cbf8266a8e6ed88c5d0d1af5d27.bindPopup(popup_2c78e25f037ca2ab32553f723b3d89ca)
+        ;
+
+        
+    
+    
+            var poly_line_07e1b13c41e5601976fb41b49d5772af = L.polyline(
+                [[-33.4569, -70.6483], [46.0814, 12.1997]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_912e6a814eb8f0b871671e5b92d2caff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9c6d3cf080b6198d47cad647aba842a = $(`<div id="html_c9c6d3cf080b6198d47cad647aba842a" style="width: 100.0%; height: 100.0%;">Fabián Orellana a Udinese (Italia), 2009</div>`)[0];
+                popup_912e6a814eb8f0b871671e5b92d2caff.setContent(html_c9c6d3cf080b6198d47cad647aba842a);
+            
+        
+
+        poly_line_07e1b13c41e5601976fb41b49d5772af.bindPopup(popup_912e6a814eb8f0b871671e5b92d2caff)
+        ;
+
+        
+    
+    
+            var poly_line_d2acde0614fa2a7807be28c89699330c = L.polyline(
+                [[-33.4569, -70.6483], [38.2671, -0.6627]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_3c878c1d55d50229e2f07b7e841a4d6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96e79818b5410c3e63e7f408341f345a = $(`<div id="html_96e79818b5410c3e63e7f408341f345a" style="width: 100.0%; height: 100.0%;">Enzo Roco a Elche CF (España), 2014</div>`)[0];
+                popup_3c878c1d55d50229e2f07b7e841a4d6b.setContent(html_96e79818b5410c3e63e7f408341f345a);
+            
+        
+
+        poly_line_d2acde0614fa2a7807be28c89699330c.bindPopup(popup_3c878c1d55d50229e2f07b7e841a4d6b)
+        ;
+
+        
+    
+    
+            var poly_line_e40cdceef52c36c35d8fe4e2f2d3608a = L.polyline(
+                [[-33.4569, -70.6483], [53.4309, -2.9608]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_67a6a5d278f2d6c01acb9ad1a9defb81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b61006578183f8dc968919c54bf4dcf = $(`<div id="html_1b61006578183f8dc968919c54bf4dcf" style="width: 100.0%; height: 100.0%;">Mark González a Liverpool (Inglaterra), 2005</div>`)[0];
+                popup_67a6a5d278f2d6c01acb9ad1a9defb81.setContent(html_1b61006578183f8dc968919c54bf4dcf);
+            
+        
+
+        poly_line_e40cdceef52c36c35d8fe4e2f2d3608a.bindPopup(popup_67a6a5d278f2d6c01acb9ad1a9defb81)
+        ;
+
+        
+    
+    
+            var poly_line_120a58a10fef2e8ff65c12652c606694 = L.polyline(
+                [[-33.4569, -70.6483], [44.4922, 11.31]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_eaa44b68c4b3e1a199c548c80343d25f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a40296c589c13bccfd2c1e50b0dff046 = $(`<div id="html_a40296c589c13bccfd2c1e50b0dff046" style="width: 100.0%; height: 100.0%;">Erick Pulgar a Bolonia (Italia), 2015</div>`)[0];
+                popup_eaa44b68c4b3e1a199c548c80343d25f.setContent(html_a40296c589c13bccfd2c1e50b0dff046);
+            
+        
+
+        poly_line_120a58a10fef2e8ff65c12652c606694.bindPopup(popup_eaa44b68c4b3e1a199c548c80343d25f)
+        ;
+
+        
+    
+    
+            var poly_line_ee677197c8579c76778a52395398b3eb = L.polyline(
+                [[-33.4569, -70.6483], [51.1933, 3.1798]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_f4fe452154fffeea5371b293cd2f19a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54b104188d2d7bf3dfcd09ee32556dc2 = $(`<div id="html_54b104188d2d7bf3dfcd09ee32556dc2" style="width: 100.0%; height: 100.0%;">Nicolás Castillo a Club Brujas (Bélgica), 2014</div>`)[0];
+                popup_f4fe452154fffeea5371b293cd2f19a2.setContent(html_54b104188d2d7bf3dfcd09ee32556dc2);
+            
+        
+
+        poly_line_ee677197c8579c76778a52395398b3eb.bindPopup(popup_f4fe452154fffeea5371b293cd2f19a2)
+        ;
+
+        
+    
+    
+            var poly_line_d3868710765b4108f279cc860a05bf90 = L.polyline(
+                [[-33.4569, -70.6483], [51.0383, 7.5022]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_e1fd9b74270e13e8ce9559f915e9a4b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cf5456962092cdca2535db7949fd052 = $(`<div id="html_2cf5456962092cdca2535db7949fd052" style="width: 100.0%; height: 100.0%;">Junior Fernandes a Bayer Leverkusen (Alemania), 2012</div>`)[0];
+                popup_e1fd9b74270e13e8ce9559f915e9a4b2.setContent(html_2cf5456962092cdca2535db7949fd052);
+            
+        
+
+        poly_line_d3868710765b4108f279cc860a05bf90.bindPopup(popup_e1fd9b74270e13e8ce9559f915e9a4b2)
+        ;
+
+        
+    
+    
+            var poly_line_cdc584494cd3735ea0507d319fbe0bc1 = L.polyline(
+                [[-33.4569, -70.6483], [41.1619, -8.5836]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_7d3b245d9aa8b80c96d4c42b2cfbcb31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fd0421da381ec702526388d84592086 = $(`<div id="html_3fd0421da381ec702526388d84592086" style="width: 100.0%; height: 100.0%;">Igor Lichnovsky a FC Porto (Portugal), 2014</div>`)[0];
+                popup_7d3b245d9aa8b80c96d4c42b2cfbcb31.setContent(html_3fd0421da381ec702526388d84592086);
+            
+        
+
+        poly_line_cdc584494cd3735ea0507d319fbe0bc1.bindPopup(popup_7d3b245d9aa8b80c96d4c42b2cfbcb31)
+        ;
+
+        
+    
+    
+            var poly_line_92d9094e7de2e4528632cde5bb2db252 = L.polyline(
+                [[-33.4569, -70.6483], [45.4354, 10.9685]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_46e5114cd04a5270abae959c448a29a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc25e28e35b61ad8edc0ed6f89c98548 = $(`<div id="html_dc25e28e35b61ad8edc0ed6f89c98548" style="width: 100.0%; height: 100.0%;">César Pinares a Chievo Verona (Italia), 2010</div>`)[0];
+                popup_46e5114cd04a5270abae959c448a29a8.setContent(html_dc25e28e35b61ad8edc0ed6f89c98548);
+            
+        
+
+        poly_line_92d9094e7de2e4528632cde5bb2db252.bindPopup(popup_46e5114cd04a5270abae959c448a29a8)
+        ;
+
+        
+    
+    
+            var poly_line_6fc14002e85c35eb1258d0a07b808654 = L.polyline(
+                [[-33.4569, -70.6483], [37.153, -3.5956]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_74924a58de68a0fa11091a2ddb9e3fe3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20629a1415c33c1a7f6ed3396c2064b5 = $(`<div id="html_20629a1415c33c1a7f6ed3396c2064b5" style="width: 100.0%; height: 100.0%;">Francisco Sierralta a Granada CF (España), 2015</div>`)[0];
+                popup_74924a58de68a0fa11091a2ddb9e3fe3.setContent(html_20629a1415c33c1a7f6ed3396c2064b5);
+            
+        
+
+        poly_line_6fc14002e85c35eb1258d0a07b808654.bindPopup(popup_74924a58de68a0fa11091a2ddb9e3fe3)
+        ;
+
+        
+    
+    
+            var poly_line_2847cd504c371ce9ba6bd696e55b974c = L.polyline(
+                [[-33.4569, -70.6483], [37.384, -5.5709]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_38716a6098ff88def3375b04937ea908 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47556d7cd67db95c20dbc48c0afec383 = $(`<div id="html_47556d7cd67db95c20dbc48c0afec383" style="width: 100.0%; height: 100.0%;">Bryan Rabello a Sevilla FC (España), 2013</div>`)[0];
+                popup_38716a6098ff88def3375b04937ea908.setContent(html_47556d7cd67db95c20dbc48c0afec383);
+            
+        
+
+        poly_line_2847cd504c371ce9ba6bd696e55b974c.bindPopup(popup_38716a6098ff88def3375b04937ea908)
+        ;
+
+        
+    
+    
+            var poly_line_225073bb8f575db7a0ad32d9b4a56479 = L.polyline(
+                [[-33.4569, -70.6483], [38.0927, 15.635]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_2688754e5c467c93a35fed384a329e58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6d41c0fb215b7ef58bc383a51b076c6 = $(`<div id="html_b6d41c0fb215b7ef58bc383a51b076c6" style="width: 100.0%; height: 100.0%;">Carlos Carmona a Reggina (Italia), 2008</div>`)[0];
+                popup_2688754e5c467c93a35fed384a329e58.setContent(html_b6d41c0fb215b7ef58bc383a51b076c6);
+            
+        
+
+        poly_line_225073bb8f575db7a0ad32d9b4a56479.bindPopup(popup_2688754e5c467c93a35fed384a329e58)
+        ;
+
+        
+    
+    
+            var poly_line_6f8d7d38fb1583bd479d47e5a9f2375f = L.polyline(
+                [[-33.4569, -70.6483], [42.5622, 12.6352]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_efaa98309424d1686e1ccc8d3bc1581e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_071a549e88fcc04748520d12826f2cfa = $(`<div id="html_071a549e88fcc04748520d12826f2cfa" style="width: 100.0%; height: 100.0%;">Luis Jiménez a Ternana (Italia), 2002</div>`)[0];
+                popup_efaa98309424d1686e1ccc8d3bc1581e.setContent(html_071a549e88fcc04748520d12826f2cfa);
+            
+        
+
+        poly_line_6f8d7d38fb1583bd479d47e5a9f2375f.bindPopup(popup_efaa98309424d1686e1ccc8d3bc1581e)
+        ;
+
+        
+    
+    
+            var poly_line_ea776ea49a4cb0145cf19ccf36230c43 = L.polyline(
+                [[-33.4569, -70.6483], [41.1271, 1.2728]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_fd59114ff01ccb3c9815f9b1aac3a810 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d111d8f24ae5b03a9638180a807e0842 = $(`<div id="html_d111d8f24ae5b03a9638180a807e0842" style="width: 100.0%; height: 100.0%;">Juan Delgado a Gimnastic (España), 2016</div>`)[0];
+                popup_fd59114ff01ccb3c9815f9b1aac3a810.setContent(html_d111d8f24ae5b03a9638180a807e0842);
+            
+        
+
+        poly_line_ea776ea49a4cb0145cf19ccf36230c43.bindPopup(popup_fd59114ff01ccb3c9815f9b1aac3a810)
+        ;
+
+        
+    
+    
+            var poly_line_5abdd4a0893795fc4e6158b5665f1b94 = L.polyline(
+                [[-33.4569, -70.6483], [41.6365, -0.9017]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_28d476ac274b1c1e364e51883441133f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27acc62a126a4d75766834f51af90148 = $(`<div id="html_27acc62a126a4d75766834f51af90148" style="width: 100.0%; height: 100.0%;">Humberto Suazo a Real Zaragoza (España), 2010</div>`)[0];
+                popup_28d476ac274b1c1e364e51883441133f.setContent(html_27acc62a126a4d75766834f51af90148);
+            
+        
+
+        poly_line_5abdd4a0893795fc4e6158b5665f1b94.bindPopup(popup_28d476ac274b1c1e364e51883441133f)
+        ;
+
+        
+    
+    
+            var poly_line_eb410f77fb7f179bbe97b6e03bc5cfff = L.polyline(
+                [[-33.4569, -70.6483], [41.0848, 16.8401]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_3de4b1b0c7fc8fadfe139e244f18a234 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6e6fc80238b842eedde97173c624a9b = $(`<div id="html_f6e6fc80238b842eedde97173c624a9b" style="width: 100.0%; height: 100.0%;">Jaime Valdés a Bari (Italia), 2000</div>`)[0];
+                popup_3de4b1b0c7fc8fadfe139e244f18a234.setContent(html_f6e6fc80238b842eedde97173c624a9b);
+            
+        
+
+        poly_line_eb410f77fb7f179bbe97b6e03bc5cfff.bindPopup(popup_3de4b1b0c7fc8fadfe139e244f18a234)
+        ;
+
+        
+    
+    
+            var poly_line_5279c052831d84c17478263c037bdbd9 = L.polyline(
+                [[-33.4569, -70.6483], [43.1063, 12.357]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_82b067ae91b3c342447f56f8bcbe331b);
+        
+    
+        var popup_fcf5576b551494c5eadbdc330d47c9ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c5143ef065482d0ba68a61038dcca35 = $(`<div id="html_5c5143ef065482d0ba68a61038dcca35" style="width: 100.0%; height: 100.0%;">Nicolas Córdova a Perugia (Italia), 2001</div>`)[0];
+                popup_fcf5576b551494c5eadbdc330d47c9ca.setContent(html_5c5143ef065482d0ba68a61038dcca35);
+            
+        
+
+        poly_line_5279c052831d84c17478263c037bdbd9.bindPopup(popup_fcf5576b551494c5eadbdc330d47c9ca)
+        ;
+
+        
+    
+</script>
+</html>
