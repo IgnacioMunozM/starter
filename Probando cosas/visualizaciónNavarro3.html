@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-f3228e051a173a1f89e17870225d7270"}, "mark": "bar", "encoding": {"x": {"field": "Jugador", "type": "nominal"}, "y": {"field": "Partidos Jugados", "type": "quantitative"}}, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-f3228e051a173a1f89e17870225d7270": [{"Jugador": "Enzo Roco", "Partidos Jugados": 17}, {"Jugador": "Jean Meneses", "Partidos Jugados": 16}, {"Jugador": "Diego Vald\u00e9s", "Partidos Jugados": 11}, {"Jugador": "Claudio Baeza", "Partidos Jugados": 11}, {"Jugador": "Edson Puch", "Partidos Jugados": 10}, {"Jugador": "Mauricio Pinilla", "Partidos Jugados": 9}, {"Jugador": "Felipe Guti\u00e9rrez", "Partidos Jugados": 9}, {"Jugador": "Nicol\u00e1s Castillo", "Partidos Jugados": 9}, {"Jugador": "Tom\u00e1s Alarc\u00f3n", "Partidos Jugados": 8}, {"Jugador": "C\u00e9sar Pinares", "Partidos Jugados": 8}, {"Jugador": "Sebasti\u00e1n Vegas", "Partidos Jugados": 8}, {"Jugador": "Gabriel Arias", "Partidos Jugados": 8}, {"Jugador": "Rodrigo Echeverr\u00eda", "Partidos Jugados": 7}, {"Jugador": "Carlos Palacios", "Partidos Jugados": 7}, {"Jugador": "Pablo Galdames", "Partidos Jugados": 6}, {"Jugador": "Lu\u00eds Jim\u00e9nez", "Partidos Jugados": 6}, {"Jugador": "Joaqu\u00edn Montecinos", "Partidos Jugados": 6}, {"Jugador": "Alexander Aravena", "Partidos Jugados": 6}, {"Jugador": "Leonardo Valencia", "Partidos Jugados": 5}, {"Jugador": "Mark Gonz\u00e1lez", "Partidos Jugados": 5}, {"Jugador": "Esteban Paredes", "Partidos Jugados": 5}, {"Jugador": "Johnny Herrer", "Partidos Jugados": 5}, {"Jugador": "Mart\u00edn Rodr\u00edguez", "Partidos Jugados": 4}, {"Jugador": "Nicol\u00e1s D\u00edaz", "Partidos Jugados": 4}, {"Jugador": "V\u00edctor D\u00e1vila", "Partidos Jugados": 4}, {"Jugador": "Felipe Mora", "Partidos Jugados": 4}, {"Jugador": "V\u00edctor Felipe M\u00e9ndez", "Partidos Jugados": 4}, {"Jugador": "Felipe Loyola", "Partidos Jugados": 3}, {"Jugador": "Junior Fernandez", "Partidos Jugados": 3}, {"Jugador": "Benjam\u00edn Kusevic", "Partidos Jugados": 3}, {"Jugador": "Ronnie Fern\u00e1ndez", "Partidos Jugados": 2}, {"Jugador": "Dario Osorio", "Partidos Jugados": 2}, {"Jugador": "Juan Delgado", "Partidos Jugados": 2}, {"Jugador": "Angelo Sagal", "Partidos Jugados": 2}, {"Jugador": "Miiko Albornoz", "Partidos Jugados": 2}, {"Jugador": "Angelo Henr\u00edquez", "Partidos Jugados": 2}, {"Jugador": "\u00d3scar Opazo", "Partidos Jugados": 2}, {"Jugador": "Esteban Pavez", "Partidos Jugados": 2}, {"Jugador": "Diego Valencia", "Partidos Jugados": 2}, {"Jugador": "Christopher Toselli", "Partidos Jugados": 2}, {"Jugador": "David Pizarro", "Partidos Jugados": 2}, {"Jugador": "Iv\u00e1n Morales", "Partidos Jugados": 2}, {"Jugador": "Valber Huerta", "Partidos Jugados": 1}, {"Jugador": "Pablo Parra", "Partidos Jugados": 1}, {"Jugador": "Nayel Mehssatou", "Partidos Jugados": 1}, {"Jugador": "Damian Pizarro", "Partidos Jugados": 1}, {"Jugador": "Mat\u00edas Fern\u00e1ndez C.", "Partidos Jugados": 1}, {"Jugador": "Maximiliano Guerrero", "Partidos Jugados": 1}, {"Jugador": "Vicente Pizarro", "Partidos Jugados": 1}, {"Jugador": "C\u00e9sar P\u00e9rez", "Partidos Jugados": 1}, {"Jugador": "Igor Lichnovsky", "Partidos Jugados": 1}, {"Jugador": "Pablo Arangu\u00edz", "Partidos Jugados": 1}, {"Jugador": "Luciano Arriagada", "Partidos Jugados": 1}, {"Jugador": "Christian Vilches", "Partidos Jugados": 1}, {"Jugador": "Bryan Rabello", "Partidos Jugados": 1}, {"Jugador": "Rodrigo Millar", "Partidos Jugados": 1}, {"Jugador": "Carlos Carmona", "Partidos Jugados": 1}, {"Jugador": "Yonathan And\u00eda", "Partidos Jugados": 1}, {"Jugador": "Niklas Castro", "Partidos Jugados": 1}, {"Jugador": "Andr\u00e9s Vilches", "Partidos Jugados": 1}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

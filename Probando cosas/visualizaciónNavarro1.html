@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-7c1fb3d30ebd01248b5b14121b34e9b6"}, "mark": "bar", "encoding": {"x": {"field": "Jugador", "type": "nominal"}, "y": {"field": "Partidos Jugados", "type": "quantitative"}}, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-7c1fb3d30ebd01248b5b14121b34e9b6": [{"Jugador": "Mauricio Isla", "Partidos Jugados": 60}, {"Jugador": "Alexis S\u00e1nchez", "Partidos Jugados": 60}, {"Jugador": "Gary Medel", "Partidos Jugados": 59}, {"Jugador": "Arturo Vidal", "Partidos Jugados": 56}, {"Jugador": "Charles Ar\u00e1nguiz", "Partidos Jugados": 53}, {"Jugador": "Eduardo Vargas", "Partidos Jugados": 53}, {"Jugador": "Claudio Bravo", "Partidos Jugados": 49}, {"Jugador": "Jean Beausejour", "Partidos Jugados": 34}, {"Jugador": "Gonzalo Jara", "Partidos Jugados": 32}, {"Jugador": "Marcelo D\u00edaz", "Partidos Jugados": 25}, {"Jugador": "Eugenio Mena", "Partidos Jugados": 25}, {"Jugador": "Jos\u00e9 Pedro Fuenzalida", "Partidos Jugados": 21}, {"Jugador": "Francisco Silva", "Partidos Jugados": 17}, {"Jugador": "Jorge Valdivia", "Partidos Jugados": 15}, {"Jugador": "Mat\u00edas Fern\u00e1ndez", "Partidos Jugados": 8}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
