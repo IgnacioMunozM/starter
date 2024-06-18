@@ -52,7 +52,6 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    height: 25px;
 }
 
 .viz-container {
@@ -72,22 +71,18 @@ iframe {
 
 .intro-container {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .intro-text {
-    flex: 1;
-    min-width: 200px;
+    flex: 3;
     margin-right: 20px;
 }
 
 .intro-image {
-    flex: 0 0 200px;
+    flex: 1;
+    max-width: 800px; /* Ajusta este valor según sea necesario */
     height: auto;
     border-radius: 8px;
-    margin-bottom: 20px;
-}
-
-.intro-text p:last-child {
-    flex-basis: 100%;
 }
