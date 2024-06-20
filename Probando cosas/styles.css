@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 2;
     margin: 0;
     padding: 0;
     background: #f4f4f4;
@@ -82,7 +82,14 @@ iframe {
 
 .intro-image {
     flex: 1;
-    max-width: 800px; /* Ajusta este valor según sea necesario */
+    max-width: 450px; /* Ajusta este valor según sea necesario */
     height: auto;
     border-radius: 8px;
+}
+
+.intro-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
