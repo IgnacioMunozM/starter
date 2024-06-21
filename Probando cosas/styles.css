@@ -109,8 +109,12 @@ iframe {
     gap: 20px;
 }
 
-.imagen_inicio {
-    width: 100%;
+.imagen-inicio {
+    width: 80%;
+}
+
+.width100 {
+    width: 80vw;
 }
 
 .mi_boton {
