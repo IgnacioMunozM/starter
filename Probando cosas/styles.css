@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
     background: #f4f4f4;
-    color: #333;
 }
 
 header {
@@ -12,7 +11,13 @@ header {
     color: #fff;
     padding: 1em 0;
     text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
+
 
 header h1 {
     margin: 0;
@@ -27,13 +32,22 @@ main {
     padding: 1em;
 }
 
-section {
+.sectionblanco {
     background: #fff;
     margin: 1em 0;
     padding: 1em;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.sectionrojo {
+    background: #c81515;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 
 h3 {
     color: #333;
@@ -78,6 +92,7 @@ iframe {
 .intro-text {
     flex: 3;
     margin-right: 20px;
+    color: #f4f4f4;
 }
 
 .intro-image {
@@ -93,3 +108,17 @@ iframe {
     flex-direction: column;
     gap: 20px;
 }
+
+.imagen_inicio {
+    width: 100%;
+}
+
+.mi_boton {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+
